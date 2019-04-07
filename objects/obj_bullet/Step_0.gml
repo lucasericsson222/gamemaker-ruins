@@ -11,3 +11,6 @@ if (place_meeting(x+hspeed,y+vspeed,obj_shield)) {
 
 		direction = obj_shield.image_angle;
 }
+if (place_meeting(x+hspeed,y+vspeed,obj_shield_thrown)) {
+	direction += 180;
+}

@@ -13,4 +13,4 @@ player_health_chunks = 10;
 
 //shield variables
 
-shield = instance_create_depth(x,y,0,obj_shield);
+global.shield = instance_create_depth(x,y,0,obj_shield);

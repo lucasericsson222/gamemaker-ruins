@@ -1,0 +1,1 @@
+init_shield_throw();
