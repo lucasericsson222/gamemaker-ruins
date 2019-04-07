@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3ae68d6b-50a1-4d57-aa94-3ea119e3c7de",
+            "Value": {
+                "id": "9dc16446-ef52-4424-8c45-dc0de76fe6a0",
+                "resourcePath": "objects\\obj_turret_parent\\obj_turret_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b60b946-0fb8-4088-8c84-c5c1b477107b",
             "Value": {
                 "id": "837bad9e-5a58-4baf-86e2-ecc1a833a8e4",
