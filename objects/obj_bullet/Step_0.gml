@@ -6,11 +6,8 @@ image_angle = direction;
 //make timer work
 timer++;
 
-
+reverse_timer--;
 if (place_meeting(x+hspeed,y+vspeed,obj_shield)) {
 
 		direction = obj_shield.image_angle;
-}
-if (place_meeting(x+hspeed,y+vspeed,obj_shield_thrown)) {
-	direction += 180;
 }

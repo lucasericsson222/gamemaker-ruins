@@ -13,8 +13,12 @@ if (mouse_left = 0 && returning == false && block == false) {
 } else if (mouse_left == 1 || returning == true) { // return shield, only when clicked & follow player
 
 	returning = true;
-	direction = point_direction(x,y,obj_player.x,obj_player.y);
-	speed = shield_speed;
+	if (instance_exists(obj_player)) {
+		direction = point_direction(x,y,obj_player.x,obj_player.y);
+		speed = shield_speed;
+
+	}
+	spin_speed = 5;
 
 
 }
