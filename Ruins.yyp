@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0029a3a5-3749-4ced-bbc8-f40badceccf0",
+            "Value": {
+                "id": "80b93ba3-13fb-410d-bba6-76c00ad70346",
+                "resourcePath": "scripts\\shoot_laser\\shoot_laser.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0cf328f0-b4d1-4230-95c3-714a521b08de",
             "Value": {
                 "id": "6049416e-4fca-4328-b6ae-9c5cf299079d",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "3ee087a6-ad27-4c22-8cac-662a4d4c7f96",
+            "Value": {
+                "id": "7e64f9d1-269b-4899-9f91-ccb7a14006eb",
+                "resourcePath": "objects\\obj_sensor\\obj_sensor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46519051-8624-4844-9986-f48578b5e041",
             "Value": {
                 "id": "04649362-bbcb-4bcb-90fb-18e30a7358b0",
@@ -188,6 +204,14 @@
                 "id": "ef7725b1-c61c-4436-9b1c-4f0cfbcb21a8",
                 "resourcePath": "paths\\pth_wall_hor\\pth_wall_hor.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "5121c704-3d33-4bc2-a98d-f5b76aa70dd5",
+            "Value": {
+                "id": "525aa8af-145f-4865-9538-f2be11f19ca5",
+                "resourcePath": "objects\\obj_laser_turret\\obj_laser_turret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -295,14 +319,6 @@
             }
         },
         {
-            "Key": "833f497b-0f82-409f-b103-838915e095bf",
-            "Value": {
-                "id": "230a3c90-8020-4336-8e7f-b058f33edd82",
-                "resourcePath": "rooms\\rm_laser_test\\rm_laser_test.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "83887079-03f8-47ef-9398-2e61f0ae8a37",
             "Value": {
                 "id": "1515958c-0ef9-4d99-ab3d-560dee9ae76d",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "93643cb1-7215-4042-b9a6-f128fa3ce5f5",
+            "Value": {
+                "id": "4faedde5-d66a-4ae1-86bf-97657d62d483",
+                "resourcePath": "objects\\obj_wall_reflect\\obj_wall_reflect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "944573de-9abc-49e6-82e3-beec5a0ce557",
             "Value": {
                 "id": "d6a17f54-5b5a-42b9-9703-21c85a0a1e14",
@@ -375,14 +399,6 @@
             }
         },
         {
-            "Key": "9e1cd76d-b917-4cdb-88ed-780aa348cbad",
-            "Value": {
-                "id": "1f85a325-016f-413c-9eaf-790644ecc7df",
-                "resourcePath": "objects\\obj_wall_move_hor\\obj_wall_move_hor.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a4a25c3c-cfdb-444f-b223-72b449ea1e52",
             "Value": {
                 "id": "4f5dc78c-e932-4144-a501-57938cfa8fdb",
@@ -396,14 +412,6 @@
                 "id": "91fb3a67-ec03-4792-ab53-6938596394e9",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aba194c0-ef61-4c03-bf32-bdad78814a3a",
-            "Value": {
-                "id": "5fde2045-bfb7-4cdd-99ab-68356d01e707",
-                "resourcePath": "objects\\obj_sensor\\obj_sensor.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "e95b22f9-ef4a-4979-a3af-46a6e115d450",
+            "Value": {
+                "id": "6ac71f6e-caa2-43f1-b7de-9640c62b957f",
+                "resourcePath": "sprites\\spr_wall_reflect\\spr_wall_reflect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee11d004-3be8-4e65-a645-f4deb966d6e4",
             "Value": {
                 "id": "3521080d-2b13-4959-9f96-0cfc3fecf104",
@@ -600,7 +616,8 @@
         "bdb7ce8b-4eda-4936-a6e6-1bcbaaf946d7",
         "a4a25c3c-cfdb-444f-b223-72b449ea1e52",
         "ffb500d3-d216-4813-aadc-1c1d1babb72c",
-        "3780210e-e580-4303-8279-0bbdf1f4241b"
+        "3780210e-e580-4303-8279-0bbdf1f4241b",
+        "0029a3a5-3749-4ced-bbc8-f40badceccf0"
     ],
     "tutorial": ""
 }
