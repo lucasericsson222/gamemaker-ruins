@@ -30,6 +30,11 @@ for(var i = 0; i < max_length; i++){
 		break;
 	
 	}
+	if (collision_point(lx,ly,obj_shield_thrown,false,true) && i >10) {
+	
+		break;
+	
+	}
 }
 // collision code for objects that laser goes through
 // if you want to have a collision with an object, use with(OBJNAME) and the if statement to test 
@@ -77,8 +82,8 @@ if (collision_line(x_start,y_start,lx,ly,obj_wall_reflect,true,true)) {
 		var ry = sin(degtorad(rdir)) * max_length;
 		
 		//make the vector relative to start point
-		rx = rx +  x_start; 
-		ry = ry + y_start;
+		rx = rx +  ly; 
+		ry = ry + lx;
 		
 		//ensure no infintie recursion
 		if (bounce_number > 0) { 
@@ -91,14 +96,26 @@ if (collision_line(x_start,y_start,lx,ly,obj_wall_reflect,true,true)) {
 	} 
 }
 if (collision_line(x_start,y_start,lx,ly,obj_shield,true,true)) {
+			var rdir = obj_shield.image_angle;
+			var rx = lengthdir_x(100, rdir);
+			var ry = lengthdir_y(100, rdir);
 	if (bounce_number >0) {
 		
 		
-		var rdir = obj_shield.direction;
-		var rx = lengthdir_x(100, rdir);
-		var ry = lengthdir_y(100, rdir);
-		shoot_laser(lx,ly,rx,ry,bounce_number-1);
+
+		shoot_laser(lx,ly,lx + rx,ly + ry,bounce_number-1);
 	
 	}
 }
+if (collision_line(x_start,y_start,lx,ly,obj_shield_thrown,true,true)) {
+			var rdir = obj_shield_thrown.direction +random_range(-30,30);
+			var rx = lengthdir_x(100, rdir);
+			var ry = lengthdir_y(100, rdir);
+	if (bounce_number >0) {
+		
+		
 
+		shoot_laser(lx,ly,lx + rx,ly + ry,bounce_number-1);
+	
+	}
+}
