@@ -6,7 +6,10 @@
     "children": [
         "6a4bdea7-9733-4bd4-979f-f2580968a169",
         "35705b31-d412-4338-8760-be2a1921f228",
-        "75d9a09a-07d6-4294-9fb9-0a957bda61ae"
+        "75d9a09a-07d6-4294-9fb9-0a957bda61ae",
+        "a4a25c3c-cfdb-444f-b223-72b449ea1e52",
+        "ffb500d3-d216-4813-aadc-1c1d1babb72c",
+        "3780210e-e580-4303-8279-0bbdf1f4241b"
     ],
     "filterType": "GMScript",
     "folderName": "scripts",

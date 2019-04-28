@@ -9,5 +9,16 @@ timer++;
 reverse_timer--;
 if (place_meeting(x+hspeed,y+vspeed,obj_shield)) {
 
-		direction = obj_shield.image_angle;
+	direction = obj_shield.image_angle;
 }
+if (place_meeting(x,y+vspeed, obj_wall_reflect)) {
+	
+	direction = -direction;
+	
+	
+}
+if (place_meeting(x+hspeed, y, obj_wall_reflect)) {
+	
+	direction = -direction + 180;
+
+} 
