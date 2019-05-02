@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "2dd0bc91-4e17-4f15-865d-b551284e0877",
-            "Value": {
-                "id": "f7dd1859-d2d3-4541-a2f2-286f7c01dc67",
-                "resourcePath": "objects\\obj_wall2\\obj_wall2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "31db51a6-a290-4ac9-930c-e732c11109d8",
             "Value": {
                 "id": "11fe59fe-1886-4e5c-8081-3bf4739c69a7",
@@ -124,14 +116,6 @@
                 "id": "1505d90c-f1d6-4ea6-8ade-e38f2382d05f",
                 "resourcePath": "views\\35705b31-d412-4338-8760-be2a1921f228.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "357373a4-8419-4391-9598-cdedbdb52ab6",
-            "Value": {
-                "id": "793c6d77-2c28-48a5-9231-f45e7d9293e4",
-                "resourcePath": "sprites\\spr_wall_collision2\\spr_wall_collision2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -399,6 +383,14 @@
             }
         },
         {
+            "Key": "9e1d22e1-2a18-4f12-9411-34849198d820",
+            "Value": {
+                "id": "bffc3614-5c2c-44fd-b359-7a9563d7a9b2",
+                "resourcePath": "sprites\\spr_tileset\\spr_tileset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a4a25c3c-cfdb-444f-b223-72b449ea1e52",
             "Value": {
                 "id": "4f5dc78c-e932-4144-a501-57938cfa8fdb",
@@ -524,6 +516,14 @@
                 "id": "2600286f-6031-4f51-99cf-718f6e96f02f",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4dba049-cb4c-4b6b-a12c-f6c4d8a9a552",
+            "Value": {
+                "id": "aa6dc635-a8a9-4990-b162-47ba12997524",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

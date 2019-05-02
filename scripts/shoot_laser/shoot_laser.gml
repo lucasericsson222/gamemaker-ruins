@@ -108,9 +108,9 @@ if (collision_line(x_start,y_start,lx,ly,obj_shield,true,true)) {
 	}
 }
 if (collision_line(x_start,y_start,lx,ly,obj_shield_thrown,true,true)) {
-			var rdir = obj_shield_thrown.direction +random_range(-30,30);
-			var rx = lengthdir_x(100, rdir);
-			var ry = lengthdir_y(100, rdir);
+	var rdir = obj_shield_thrown.direction +random_range(-30,30);
+	var rx = lengthdir_x(100, rdir);
+	var ry = lengthdir_y(100, rdir);
 	if (bounce_number >0) {
 		
 		
