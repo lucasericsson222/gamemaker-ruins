@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2c5a0992-98f5-4fa5-94c4-ca5d6a0de8e2",
+            "Value": {
+                "id": "e0049084-757e-4cd6-8e00-a6a161f8660d",
+                "resourcePath": "scripts\\collision_block\\collision_block.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31db51a6-a290-4ac9-930c-e732c11109d8",
             "Value": {
                 "id": "11fe59fe-1886-4e5c-8081-3bf4739c69a7",
@@ -156,6 +164,14 @@
                 "id": "837bad9e-5a58-4baf-86e2-ecc1a833a8e4",
                 "resourcePath": "views\\3b60b946-0fb8-4088-8c84-c5c1b477107b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bd54eb7-2e69-47e2-8e64-ada65250ecb3",
+            "Value": {
+                "id": "990c71cd-0bc4-404b-bec0-97e2db77ba32",
+                "resourcePath": "scripts\\dash_player\\dash_player.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -308,6 +324,14 @@
                 "id": "1dcb089a-c8a8-4f0e-a81d-1cd77fcb2594",
                 "resourcePath": "views\\75d9a09a-07d6-4294-9fb9-0a957bda61ae.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "78cf9854-ed1a-4c8e-aa9c-c00a397dd02c",
+            "Value": {
+                "id": "cd988276-f808-42af-a6f5-128fee637604",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -535,6 +559,14 @@
             }
         },
         {
+            "Key": "d9a4f6b1-e21f-4356-a0b4-c19f330b666f",
+            "Value": {
+                "id": "e1a4049d-0364-4ed3-bbde-b4cb77684aad",
+                "resourcePath": "scripts\\get_input\\get_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dd1fd874-6cd2-4580-8f4b-87a396c1871f",
             "Value": {
                 "id": "2600286f-6031-4f51-99cf-718f6e96f02f",
@@ -628,6 +660,9 @@
         "c8eafb07-12b8-4ca3-8b4b-b99f7017d0c2",
         "46519051-8624-4844-9986-f48578b5e041",
         "4b9e939b-7b7e-4b6e-b53b-417b0ad39466",
+        "3bd54eb7-2e69-47e2-8e64-ada65250ecb3",
+        "d9a4f6b1-e21f-4356-a0b4-c19f330b666f",
+        "2c5a0992-98f5-4fa5-94c4-ca5d6a0de8e2",
         "5316bc20-0da8-45d8-aee3-c503c262ac82",
         "bdb7ce8b-4eda-4936-a6e6-1bcbaaf946d7",
         "a4a25c3c-cfdb-444f-b223-72b449ea1e52",

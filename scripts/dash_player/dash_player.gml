@@ -1,4 +1,5 @@
 
+
 //set speeds
 hspeed = key_right-key_left;
 vspeed = key_down-key_up;
@@ -7,7 +8,8 @@ vspeed = key_down-key_up;
 hspeed *= move_speed;
 vspeed *= move_speed;
 
+hspeed *= dash_speed;
+vspeed *= dash_speed;
 
-//collision checking (if true, set speed to 0)
 collision_block();
-
+pstate = pstates.normal;
