@@ -4,8 +4,9 @@ depth = -10; // make sure that the player appears on top
 
 
 //player variables
-move_speed = 3;
-dash_speed = 10;
+move_speed = 2;
+dash_speed = 5;
+dash_timer = 5;
 player_health_max = 500;
 global.player_health = player_health_max;
 player_health_chunks = 10;
@@ -16,6 +17,7 @@ enum pstates{
 }
 
 pstate = pstates.normal;
+
 
 camera = instance_create_depth(0,0,0,obj_camera);
 //shield variables

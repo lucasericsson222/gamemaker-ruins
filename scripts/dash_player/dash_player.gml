@@ -12,4 +12,7 @@ hspeed *= dash_speed;
 vspeed *= dash_speed;
 
 collision_block();
-pstate = pstates.normal;
+if (dash_timer < 0) {
+	pstate = pstates.normal;
+}
+dash_timer--;
